@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wal"
+    tools:context=".Hardwood">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rowCount="500"
+            android:columnCount="1"
+            android:layout_margin="1dp"
+            android:alignmentMode="alignMargins"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="371dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:clickable="true"
+            app:cardBackgroundColor="#393F3F"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/y" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/opensans"
+                android:text="African Juniper"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans"
+                android:text="Native to mountainous areas in Africa and the Arabian Peninsula, The African Juniper Tree is an important timber tree used for building houses, for poles, for furniture; bark used for beehives."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans"
+                android:textAlignment="center"
+                android:text="Fun Facts"
+                android:textStyle="bold"
+                android:textColor="#19A50A"
+                android:textSize="28dp" />
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="335dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans"
+                android:textAlignment="center"
+                android:text="It is the only juniper to occur south of the equator."
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="390dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans"
+                android:textAlignment="center"
+                android:text="Planting Area"
+                android:textStyle="bold"
+                android:textColor="#19A50A"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="430dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans"
+                android:text="Africa"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/index" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Arborvitae "
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Meaning 'tree of life', this medium-sized forest tree grows to a height of 40-60 ft. Was useful in early canoes and medicines and became the first North American tree to be introduced to Europe."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="The specific name, 'Occidentalis', means west, the direction from Sweden where this tree was discovered."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="440dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/n" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Beech"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="One of the most well-known trees in the state, given its wide distribution across forests. It is excellent as fuelwood. The disease on the bark of beech trees is currently threatening the species across its entire range."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Beechnut was used as food for the cattle. Many forest mammals and birds consume beechnuts as a regular part of their diet."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/abr" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Chestnut"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="The American chestnut tree was once a dominant forest species, but due to a blight disease, is now rare. Before the blight, trees grew close to 115 ft tall, now surviving trees are smaller than 32 ft."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Chestnuts can be consumed raw, baked, boiled or roasted. It also can be dried and milled into flour."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/elm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Elm"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="The wood is strong and coarse-grained; largely used for veneer, crates and wheel hubs. It has nearly disappeared because of the Dutch Elm disease. "
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="There are isolated American Elm trees that survived Dutch Elm Disease with trunks over 4.5 m in circumference!"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/elm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Hornbeam"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="The tree is slow-growing and is rarely found larger than 10 inches in diameter. It makes excellent fuelwood when seasoned."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Name 'hornbeam' originates from old English words 'horn', which was used to describe strong wood and beam, that was used as a synonym for tree."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/larch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Larch"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="A forest tree of the swamps. The wood is very heavy, and strong, it is used for fence posts, telegraph poles, and railroad ties."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Some species of Larch can survive up to thousand years, most live around 250 years in the wild."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/mnt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="American Mountainash"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="A relatively small tree, reaching only 40 ft in height. The American mountain-ash attains its largest specimens on the northern shores of Lake Huron and Lake Superior."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="American Mountain Ash Trees make their own food from sunlight, carbon dioxide, water, and nutrients from the soil."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/appl" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Apple Tree"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="There are over 7500 varieties of apples that can be found worldwide. They are part of human diet for thousands of years. This fruit is a symbol of temptation and immorality in Christianity."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="The average apple tree produces 88 to 440 pounds of apples each year."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/aspen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Aspen Tree"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="A poplar tree that belongs to the willow family. here are six species of aspen that can be found in the temperate areas of the northern hemisphere. Aspen grows in sunny areas, on moist, well-drained soil."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="The heat-resistant wood of aspen trees have application in the manufacture of interior parts of sauna and roofing."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America,Latin America, Africa"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/avo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Avocado Tree"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="The avocado tree needs a warm climate, little wind, and well aerated soil to thrive. The trees are partially self pollinating, but are more effectively grown through grafting or its fruit’s seed."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="An avocado fruit is a type of berry."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America,Latin America, Africa"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/balsam" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Balsam Fir"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="A medium-sized forest tree generally distributed in deep, cold swamps. It is cut for pulpwood, and is used as a Christmas tree. Balsam pillows are made from the needles."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="In aromatherapy uses, Fir as an essential oil, is beneficial for coughs, colds, flu, arthritis,
+and rheumatism."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/bald" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Bald Cypress"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="It is native to the southeastern United States. This cypress tree adapts to a wide range of soil types, whether wet, dry, or swampy."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="The tree gets the name “bald” cypress because they drop their leaves so early in the season."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ban" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Banana Tree"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="The banana plant grows to be tall like a tree, but has no trunk: it is simply a cluster of large leaf stalks. This technically classifies it as an herb."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Banana fruits are mildly radioactive."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America, Latin America, Africa"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="371dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#393F3F"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/bb" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="Basswood"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="It has rapidity of growth and a wide range of uses for its lumber. It does best in the deep, moist soils. The wood is soft, used for boxes, crates, and cheap furniture."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Fun Facts"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="28dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="335dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Trees must be about 15 years old before they bear fruit."
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="430dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:textAlignment="center"
+                    android:text="Planting Area"
+                    android:textStyle="bold"
+                    android:textColor="#19A50A"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:text="North America"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

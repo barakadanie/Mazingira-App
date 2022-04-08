@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545293667678",
+    "project_id": "mazingira-app",
+    "storage_bucket": "mazingira-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545293667678:android:774bf13896698a481813cf",
+        "android_client_info": {
+          "package_name": "com.example.mazingiraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545293667678-h78blbsd29jlmdvmbbtk7h51iad174qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIdZtPtTxCPreDWSG1Q5eWQARM0lpAtLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545293667678-h78blbsd29jlmdvmbbtk7h51iad174qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

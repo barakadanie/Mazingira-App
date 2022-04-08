@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/pro/MazingiraApp/app/src/main/res/layout/activity_main.xml" value="0.10182370820668693" />
+        <entry key="app/src/main/res/drawable/background_splashscreen.xml" value="0.104" />
+        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/splash.xml" value="0.104" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_donate.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_hard_wood.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_hardwood.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_history.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_indegenious.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_my_pin.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_recieve.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_soft_wood.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_soft_wood2.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_tree_map.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_trees.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/activity_user_data.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/single_row.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
